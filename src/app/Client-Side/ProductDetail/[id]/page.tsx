@@ -52,8 +52,8 @@ return (
         <Image src={product.image} alt={product.title} width={300} height={400} />
         </div>
         <div className="text-center">
-        <h1 className="text-[24px] text-blue-900 font-bold mt-14">{product.title}</h1>
-        <p className="text-[20px] text-red-700 p-3">{product.description}</p>
+        <h1 className="text-[24px] text-blue-900 font-bold px-2 mt-14">{product.title}</h1>
+        <p className="text-[20px] text-red-700 p-5">{product.description}</p>
         </div>
         
         </div>
