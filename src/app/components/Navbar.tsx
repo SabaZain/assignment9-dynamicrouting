@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <div className='bg-black text-white flex justify-around'>
+    <div className='bg-black text-white flex justify-around px-2'>
     <div className='flex align items-center gap-3 p-2'>
       <Image src="/Image/datafetch.jpg" alt="logo" width={40} height={40} />
       <h1 className='text-xl md:text-2xl lg:text-2xl font-bold hover:text-purple-600'>Dynamic Routing</h1>
